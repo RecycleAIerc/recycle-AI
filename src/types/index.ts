@@ -18,7 +18,7 @@ export type GroupedCallDataT = {
 }
 
 export type TokenAddressWithMakersT = {
-  token: {
+  token:  {
     address: string,
     symbol: string,
   },
