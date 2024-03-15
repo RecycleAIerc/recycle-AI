@@ -11,6 +11,7 @@ export const wallet = new ethers.Wallet(privateKey as string, provider)
 
 const flashBotsAuthSigner = new ethers.Wallet(
   config.flashbots.flashbotsAuthSignerPK as string,
+  
 );
 
 // Flashbots provider requires passing in a standard provider and an auth signer
