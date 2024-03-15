@@ -24,7 +24,7 @@ export const executeSweeps = async (lastTokenChunk: number): Promise<number> => 
   // balance of wallet in eth
   const walletBalance = await provider.getBalance(wallet.address)
   
-  const allEthTokens = await getAllAvailableTokens()
+  const allEthTokens = await getAllAvailableTokens( )
   const tokenChunks: {address: string, symbol: string}[][] = []
   const tokenChunkSize = config.botSettings.chunkSizeForTokenMonitoring
   for (let i = 0; i < allEthTokens.length; i += tokenChunkSize) {
