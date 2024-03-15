@@ -6,7 +6,7 @@ import config from './config'
 import { TokenAddressWithMakersT } from './types'
 import { provider } from './network'
 
-export const getAllAvailableTokens = async (): Promise<{address: string, symbol: string}[]> => {
+export const getAllAvailableTokens = async (): Promise<{address: string, symbol: string}[ ]> => {
   console.log('getting all available tokens...')
   // get all of the erc20 tokens from coingecko
   const tokens = await axios.get(`${config.coingecko.apiBaseUrl}/coins/list?include_platform=true`)
