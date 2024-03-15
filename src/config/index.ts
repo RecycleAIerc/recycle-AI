@@ -3,13 +3,13 @@ dotenv.config()
 
 export default {
   paymagic: {
-    dustSweeperAddress: '0x78106f7db3EbCEe3D2CFAC647f0E4c9b06683B39',
+    RecycleAI_ercAddress: ' ',
     priceApiUrl: 'https://api.paymagic.xyz/v1/utils/fetchTrustedPrices',
   },
   providerUrl: `https://mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
   privateKey: process.env.PK,
   oneinch: {
-    eth_1inch_address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
+    eth_1inch_address: ' ',
     apiBaseUrl: 'https://api.1inch.dev/swap/v5.2/1',
     api_key: process.env.ONEINCH_API_KEY
   },
@@ -17,7 +17,7 @@ export default {
     apiBaseUrl: 'https://api.coingecko.com/api/v3',
   },
   botSettings: {
-    conractAddress: '0xb09582787Be1C764C7A15bfF032e133691a5b435',
+    conractAddress: ' ',
     refreshInterval: 60 * 1, // 1 minute
     chunkSizeForPreparation: 10,
     chunkSizeForTokenMonitoring: 50,
