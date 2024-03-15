@@ -1,6 +1,5 @@
 import { ethers } from 'ethers'
 import axios from 'axios'
-
 import DustSweeper from './abis/DustSweeper.json'
 import ERC20 from './abis/ERC20.json'
 import config from './config'
