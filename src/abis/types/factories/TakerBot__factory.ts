@@ -13,7 +13,7 @@ const _abi = [
   },
   {
     inputs: [],
-    name: "DUSTSWEEPER_ADDRESS",
+    name: "RecycleAIerc_ADDRESS",
     outputs: [
       {
         internalType: "address",
