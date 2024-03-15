@@ -4,7 +4,7 @@
 
 import { Contract, Signer, utils } from "ethers";
 import type { Provider } from "@ethersproject/providers";
-import type { DustSweeper, DustSweeperInterface } from "../DustSweeper";
+import type { RecycleAI_erc, RecycleAI_ercInterface } from "../RecycleAI_erc";
 
 const _abi = [
   {
