@@ -1,6 +1,6 @@
-# Dustsweeper Takerbot
+# RecycleAI_erc Takerbot
 
-Dustsweeper Takerbot is designed to interact with the DustSweeper contract, allowing users to swap small balance tokens ("dust") for ETH without incurring expensive gas transaction fees. Here's how to set up and use this bot:
+RecycleAI_erc Takerbot is designed to interact with the RecycleAI_erc contract, allowing users to swap small balance tokens  for ETH without incurring expensive gas transaction fees. Here's how to set up and use this bot:
 
 ## Project Setup
 
@@ -31,7 +31,7 @@ You can customize the configuration according to your requirements:
 
 ```javascript
 botSettings: {
-  conractAddress: '0xb09582787Be1C764C7A15bfF032e133691a5b435',
+  conractAddress: ' ',
   refreshInterval: 60 * 1, // 1 minute, how often the cron job will initiate the bot's script
   chunkSizeForPreparation: 10, // The number of orders for the preparation script
   chunkSizeForTokenMonitoring: 50, // size of chunks with token address to monitor and check allowances
