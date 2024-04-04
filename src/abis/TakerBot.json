@@ -7,7 +7,7 @@
       "inputs": [],
       "stateMutability": "nonpayable",
       "type": "constructor"
-    },
+    }, 
     {
       "inputs": [],
       "name": "DUSTSWEEPER_ADDRESS",
