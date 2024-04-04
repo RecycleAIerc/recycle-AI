@@ -7,7 +7,7 @@
 # IDE
 .idea
 
-# Environment
+# Environment 
 .env*
 
 # Node JS
