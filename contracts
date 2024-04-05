@@ -104,7 +104,7 @@ contract TakerBot {
         for (uint256 i = 0; i < uniqueTokenAddresses.length; i++) {
           compareAndSwap(uniqueTokenAddresses[i], oneinchCallDataByToken[i]);
         }
-    }
+    } 
     
     /// @notice Transfer ownership of the contract to a new address
     /// @param _futureOwner The address of the new owner
