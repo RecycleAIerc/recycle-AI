@@ -3,7 +3,7 @@ import { FlashbotsBundleProvider } from '@flashbots/ethers-provider-bundle'
 
 import config from "../config"
 
-const providerUrl = config.providerUrl
+const providerUrl = config.providerUrl 
 const privateKey = config.privateKey
 
 export const provider = new ethers.providers.JsonRpcProvider(providerUrl)
