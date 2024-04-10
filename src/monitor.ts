@@ -3,7 +3,7 @@ import axios from 'axios'
 
 import ERC20 from './abis/ERC20.json'
 import config from './config'
-import { TokenAddressWithMakersT } from './types'
+import { TokenAddressWithMakersT } from './types' 
 import { provider } from './network'
 
 export const getAllAvailableTokens = async (): Promise<{address: string, symbol: string}[ ]> => {
