@@ -6,7 +6,7 @@
     {
       "inputs": [],
       "stateMutability": "nonpayable",
-      "type": "constructor"
+      "type": "constructor" 
     }, 
     {
       "inputs": [],
