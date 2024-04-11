@@ -7,7 +7,7 @@
           "outputs": [
               {
                   "name": "", 
-                  "type": "string"
+                  "type": "string" 
               }
           ],
           "payable": false,
