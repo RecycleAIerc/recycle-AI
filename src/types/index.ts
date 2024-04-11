@@ -4,7 +4,7 @@ export type PreparedCallDataT = {
   packet: any,
   value: string,
   swapData: string,
-  estimatedSwapReturn: string
+  estimatedSwapReturn: string 
 }
 
 export type GroupedCallDataT = {
