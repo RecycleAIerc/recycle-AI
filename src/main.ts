@@ -6,7 +6,7 @@ import config from "./config";
 import { GroupedCallDataT, PreparedCallDataT, TokenAddressWithMakersT } from "./types"
 import TakerBotI from './abis/TakerBot.json'
 import { getFlashbotsProvider, provider, wallet } from "./network";
-import { TakerBot } from './abis/types';
+import { TakerBot } from './abis/types'; 
 import { FlashbotsBundleProvider, FlashbotsTransactionResponse } from '@flashbots/ethers-provider-bundle';
 
 const takerBotAddress = config.botSettings.conractAddress
