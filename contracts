@@ -5,7 +5,7 @@ pragma solidity >=0.8.25 <0.9.0;
 /// @param s Part of the ECDSA signature
 /// @param request Identifier for verifying the packet is what is desired
 /// , rather than a packet for some other function/contract
-/// @param deadline The Unix timestamp (in seconds) after which the packet
+/// @param deadline The Unix timestamp (in seconds) after which the packet 
 /// should be rejected by the contract
 /// @param payload The payload of the packet
 struct TrustusPacket {
